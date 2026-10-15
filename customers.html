@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Customers - BizConnect AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="sidebar">
+    <h2>BizConnect AI</h2>
+    <a href="index.html">Dashboard</a>
+    <a href="customers.html">Customers</a>
+    <a href="customers.html">Sales Leads</a>
+    <a href="index.html">Follow-ups</a>
+    <a href="login.html">Logout</a>
+  </div>
+
+  <div class="main-content">
+    <h1>Customers</h1>
+    <p>Manage your customers here.</p>
+    <button class="btn">+ Add Customer</button>
+    <br><br>
+<input type="text" id="custName" placeholder="Customer Name" style="padding:10px; margin-right:5px;">
+<input type="text" id="custPhone" placeholder="Phone Number" style="padding:10px; margin-right:5px;">
+<button class="btn" onclick="addCustomer()">Save Customer</button>
+
+<h3 style="margin-top:30px;">Customer List</h3>
+<div id="customerList"></div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
